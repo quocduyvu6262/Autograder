@@ -6,13 +6,13 @@ autograder: MyMinHeap.class MyPriorityQueue.class Ticket.class MyAutograder.clas
 
 test: MyMinHeap.class PublicTester.class
 	javac MyMinHeap.class
-	java -cp $(classpath) $(runner) PublicTester
+	java -cp $(classpath) $(runner) CustomTester
 
 MyMinHeap.class: MyMinHeap.java
-	javac -cp $(classpath) PublicTester.java
+	javac -cp $(classpath) CustomTester.java
 
 PublicTester.class: PublicTester.java
-	javac -cp $(classpath) PublicTester.java
+	javac -cp $(classpath) CustomTester.java
 MyMinHeap.class: MyMinHeap.java
 	javac MyMinHeap.java
 
