@@ -1,6 +1,5 @@
 /**
- * Simulation of MyAutograder Ticket System. 
- * Used for PA7 Part 2 in CSE 12
+ * Simulation of MyAutograder Ticket System.
  */
 import java.awt.GridLayout;
 import java.util.ArrayList;
